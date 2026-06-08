@@ -21,5 +21,9 @@ print(f"<p>Size: {size}</p>")
 print(f"<p>Quantity: {quantity}</p>")
 
 print("<p>Thank you for your order!</p>")
+
+print('<p><a href="https://github.com/yunhanxiao/pizza-order-website">GitHub Repository</a></p>')
+
 print("</body>")
 print("</html>")
+
