@@ -41,4 +41,4 @@ https://github.com/yunhanxiao/pizza-order-website
 
 ## Website
 
-(To be added after deployment to PAN)
+http://pan.th-brandenburg.de/~zhou/

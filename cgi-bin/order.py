@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import cgi
 print("Content-Type: text/html")
 print()
@@ -10,7 +12,7 @@ quantity = form.getvalue("quantity")
 
 print("<html>")
 print("<head>")
-print('<link rel="stylesheet" href="/style.css">')
+print('<link rel="stylesheet" href="/~zhou/style.css">')
 print("</head>")
 print("<body>")
 print("<h1>Pizza Order Confirmation</h1>")
