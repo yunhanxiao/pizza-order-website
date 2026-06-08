@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8">
+        <title>Pizza Order Website</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Pizza Bestellung</h1>
+        <form action="/cgi-bin/order.py" method="post">
+            
+            <label>Name:</label><br>
+            <input type="text" name="name"><br><br>
+            
+            <label>Select Pizza:</label><br>
+            
+           <select name="pizza" required>
+            <option value="Margherita">Margherita</option>
+            <option value="Salami">Salami</option>
+            <option value="Hawaii">Hawaii</option>
+            <option value="Tonna">Tonna</option>
+           </select><br><br>
+            <label>Pizza Size:</label><br>
+            <input type="radio" name="size" value="Small">
+            Small<br>
+            <input type="radio" name="size" value="Medium">
+            Medium<br>
+            <input type="radio" name="size" value="Large">
+            Large<br>
+
+            <label>Quantity:</label><br>
+            <input type="number" name="quantity"><br><br>
+            <input type="submit" value="Order Pizza">
+        </form>
+    </body>
+</html>
