@@ -15,11 +15,18 @@ Users can:
 
 The form data is sent to a Python CGI script, which generates a dynamic order confirmation page.
 
+## Input Parameters
+
+- name (customer name)
+- pizza (pizza type)
+- size (pizza size)
+- quantity (number of pizzas)
+
 ## Technologies
 
 - HTML5
 - CSS3
-- Python 3.12.10
+- Python 3.12
 - CGI
 
 ## Student Information
@@ -27,3 +34,11 @@ The form data is sent to a Python CGI script, which generates a dynamic order co
 Name: Yunhanxiao Zhou
 
 Matrikelnummer: 20232415
+
+## Repository
+
+https://github.com/yunhanxiao/pizza-order-website
+
+## Website
+
+(To be added after deployment to PAN)
